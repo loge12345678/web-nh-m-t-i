@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường THPT Lý Tự Trọng - Nha Trang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="images/Logo.png" alt="[Logo trường]" class="h-10 w-auto bg-white rounded-full p-1">
+                <div class="text-xl font-bold tracking-tighter uppercase">THPT Lý Tự Trọng</div>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#history" class="hover:text-yellow-400 transition">Lịch sử</a>
+                <a href="#admissions" class="hover:text-yellow-400 transition">Tuyển sinh</a>
+                <a href="#honors" class="hover:text-yellow-400 transition">Thành tích</a>
+                <a href="#activities" class="hover:text-yellow-400 transition">Hoạt động</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient h-[650px] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl">TRƯỜNG THPT LÝ TỰ TRỌNG</h1>
+            <div class="h-1 w-32 bg-yellow-500 mx-auto mb-6"></div>
+            <p class="text-xl md:text-2xl font-light mb-10 max-w-2xl mx-auto drop-shadow-md">Nơi hội tụ tri thức, rèn luyện bản lĩnh và chắp cánh ước mơ cho các thế hệ học sinh Nha Trang.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <a href="#history" class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-4 px-10 rounded-full transition duration-300 shadow-xl">Sơ lược về lịch sử</a>
+                <a href="#admissions" class="bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 font-bold py-4 px-10 rounded-full transition duration-300 backdrop-blur-md">Tuyển sinh 2026</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- History Section -->
+    <section id="history" class="py-24 bg-white bg-pattern">
+        <div class="container mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl font-bold text-blue-900 mb-4 uppercase">Sơ lược lịch sử xây dựng</h2>
+            <p class="text-gray-500 max-w-xl mx-auto">Hơn 75 năm hình thành và phát triển, trường luôn là niềm tự hào của ngành giáo dục tỉnh nhà.</p>
+            <div class="h-1 w-20 bg-yellow-500 mx-auto mt-6"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 relative timeline-line">
+            <!-- Timeline Item 1 -->
+            <div class="flex flex-col md:flex-row items-center mb-24 relative z-10">
+                <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0">
+                    <div class="bg-white p-4 rounded-3xl shadow-xl transform -rotate-2 hover:rotate-0 transition duration-500 border border-gray-100">
+                        <img src="images/1947.png" alt="[Ảnh giai đoạn 1947]" class="w-full h-64 object-cover rounded-2xl" onerror="this.src='https://via.placeholder.com/600x400?text=Giai+Đoạn+1947'">
+                    </div>
+                </div>
+                <div class="w-12 h-12 bg-yellow-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center text-white font-bold absolute left-[20px] md:left-1/2 transform -translate-x-1/2">1</div>
+                <div class="md:w-1/2 md:pl-16">
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border-l-8 border-yellow-500">
+                        <span class="text-yellow-600 font-bold text-lg">1947</span>
+                        <h3 class="text-2xl font-bold text-blue-800 mb-2 uppercase">College de Nha Trang</h3>
+                        <p class="text-gray-700 leading-relaxed">Trường chính thức khai giảng tại cơ sở Nam Tiểu học (nay là trường THPT Nguyễn Văn Trỗi), bắt đầu hành trình giáo dục chỉ có 1 lớp 30 học sinh.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 md:pr-16 md:text-right mb-6 md:mb-0">
+                    <span class="text-blue-900 font-bold text-lg">1949-1950</span>
+                </div>
+                <div class="w-12 h-12 bg-blue-900 rounded-full border-4 border-white shadow-lg z-10 hidden md:flex items-center justify-center text-white font-bold">2</div>
+                <div class="md:w-1/2 md:pl-16">
+                    <div class="bg-white p-6 rounded-2xl shadow-xl border-l-8 border-yellow-500 transform hover:-translate-y-1 transition duration-300">
+                        <p class="text-gray-700">Khởi công xây dựng và hoàn thành việc xây dựng tại địa điểm hiện tại (đường Lý Tự Trọng) và đổi tên thành Trường Trung học Nha Trang.</p>
+                    </div>
+                </div>
+            </div>\
+            <div style="height: 80px;"></div>
+
+
+            <!-- Timeline Item 3 -->
+            <div class="flex flex-col md:flex-row-reverse items-center mb-24 relative z-10">
+                <div class="md:w-1/2 md:pl-16 mb-8 md:mb-0">
+                    <div class="bg-white p-4 rounded-3xl shadow-xl transform rotate-2 hover:rotate-0 transition duration-500 border border-gray-100">
+                        <img src="images/votanh.png" alt="[Ảnh giai đoạn 1952]" class="w-full h-64 object-cover rounded-2xl" onerror="this.src='https://via.placeholder.com/600x400?text=Trường+Trung+Học+Võ+Tánh'">
+                    </div>
+                </div>
+                <div class="w-12 h-12 bg-yellow-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center text-white font-bold absolute left-[20px] md:left-1/2 transform -translate-x-1/2">3</div>
+                <div class="md:w-1/2 md:pr-16 md:text-right">
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border-r-8 border-blue-900">
+                        <span class="text-yellow-600 font-bold text-lg">1952 - 1975</span>
+                        <h3 class="text-2xl font-bold text-blue-800 mb-2 uppercase">Trường Trung học Võ Tánh</h3>
+                        <p class="text-gray-700 leading-relaxed">Giai đoạn vang danh khắp miền Nam Trung Bộ với tên gọi Võ Tánh, nơi rèn luyện kỷ luật thép và đào tạo nên nhiều thế hệ trí thức lỗi lạc cho đất nước.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="flex flex-col md:flex-row items-center mb-16 relative z-10">
+                <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0">
+                    <div class="bg-white p-4 rounded-3xl shadow-xl transform -rotate-1 hover:rotate-0 transition duration-500 border border-gray-100">
+                        <img src="images/now.png" alt="[Ảnh giai đoạn hiện tại]" class="w-full h-64 object-cover rounded-2xl" onerror="this.src='https://via.placeholder.com/600x400?text=THPT+Lý+Tự+Trọng+Hiện+Tại'">
+                    </div>
+                </div>
+                <div class="w-12 h-12 bg-blue-900 rounded-full border-4 border-white shadow-lg flex items-center justify-center text-white font-bold absolute left-[20px] md:left-1/2 transform -translate-x-1/2">4</div>
+                <div class="md:w-1/2 md:pl-16">
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border-l-8 border-yellow-500">
+                        <span class="text-blue-900 font-bold text-lg">01/1976 - Nay</span>
+                        <h3 class="text-2xl font-bold text-blue-800 mb-2 uppercase">THPT Lý Tự Trọng</h3>
+                        <p class="text-gray-700 leading-relaxed">Mang tên người anh hùng trẻ tuổi, trường không ngừng đổi mới, hiện đại hóa cơ sở vật chất và luôn dẫn đầu về chất lượng giáo dục trong khu vực.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Stats -->
+    <section id="admissions" class="py-24 bg-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 uppercase tracking-tight">Tuyển sinh & Đào tạo</h2>
+                    <p class="mb-10 text-blue-100 text-lg leading-relaxed">Điểm chuẩn tuyển sinh là minh chứng cho sự tin tưởng của phụ huynh và nỗ lực không ngừng của các em học sinh khi lựa chọn THPT Lý Tự Trọng.</p>
+                    
+                    <div class="bg-white rounded-2xl p-2 mb-8 shadow-2xl overflow-hidden transform hover:scale-[1.02] transition duration-500">
+                        <img src="image_e383a7.png" alt="[Bảng điểm chuẩn chi tiết qua các năm]" class="w-full h-auto rounded-xl">
+                    </div>
+
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-sm">
+                        <h4 class="text-yellow-400 font-bold mb-6 uppercase text-sm tracking-widest flex items-center">
+                            <span class="w-8 h-[1px] bg-yellow-400 mr-3"></span> Tổng hợp nhanh
+                        </h4>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center py-3 border-b border-white/10">
+                                <span class="text-blue-100">Khóa 2023 - 2024</span>
+                                <span class="text-2xl font-bold">36.00</span>
+                            </div>
+                            <div class="flex justify-between items-center py-3 border-b border-white/10">
+                                <span class="text-blue-100">Khóa 2024 - 2025</span>
+                                <span class="text-2xl font-bold">32.75</span>
+                            </div>
+                            <div class="flex justify-between items-center py-3">
+                                <span class="text-yellow-400 font-medium">Khóa 2025 - 2026*</span>
+                                <span class="text-3xl font-black text-yellow-400">9.00</span>
+                            </div>
+                        </div>
+                        <p class="text-xs mt-6 italic text-blue-300">* Lưu ý: Hệ số điểm 2025 được thay đổi theo quy định mới của Sở GD&ĐT.</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white/10 p-8 rounded-3xl border border-white/20 text-center hover:bg-white/20 transition">
+                            <div class="text-5xl font-black text-yellow-400 mb-2">100%</div>
+                            <div class="text-xs font-bold uppercase tracking-widest text-blue-200">Đậu tốt nghiệp</div>
+                        </div>
+                        <div class="bg-yellow-500 p-8 rounded-3xl text-blue-900 text-center hover:shadow-2xl transition">
+                            <div class="text-5xl font-black mb-2">TOP 1</div>
+                            <div class="text-xs font-bold uppercase tracking-widest">Toàn tỉnh</div>
+                        </div>
+                    </div>
+                    <div class="bg-white text-blue-900 p-8 rounded-3xl shadow-xl flex items-center justify-between">
+                        <div class="text-left">
+                            <div class="text-4xl font-black">90%</div>
+                            <div class="text-sm font-bold uppercase tracking-tighter text-blue-600">Đậu Đại học Top đầu</div>
+                        </div>
+                        <div class="text-6xl opacity-20 italic font-black">LTT</div>
+                    </div>
+                    <div class="bg-blue-800 p-8 rounded-3xl border border-blue-700 text-center">
+                        <p class="text-blue-100 italic">"Học tập tại THPT Lý Tự Trọng không chỉ là học kiến thức, mà là học cách để dẫn đầu."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honors Section -->
+    <section id="honors" class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full -mr-32 -mt-32 opacity-50"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl font-bold text-blue-900 mb-4 uppercase">Bảng vàng danh dự</h2>
+            <div class="h-1 w-20 bg-yellow-500 mx-auto mb-16"></div>
+            
+            <div class="max-w-6xl mx-auto bg-white rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex flex-col md:flex-row border border-gray-100">
+                <div class="md:w-5/12 bg-blue-900 flex flex-col items-center justify-center p-12 text-white relative">
+                    <div class="absolute inset-0 opacity-10">
+                        <svg class="w-full h-full" viewBox="0 0 100 100" fill="currentColor"><circle cx="50" cy="50" r="40" /></svg>
+                    </div>
+                    <div class="relative mb-8">
+                        <img src="images/thukhoa.png" alt="[Chân dung thủ khoa Nguyễn Nhân Tâm]" class="w-60 h-60 object-cover rounded-full border-8 border-yellow-500 shadow-2xl">
+                        <div class="absolute bottom-0 right-0 bg-yellow-500 text-blue-900 w-14 h-14 rounded-full flex items-center justify-center font-black text-lg shadow-xl ring-4 ring-blue-900">1st</div>
+                    </div>
+                    <h4 class="text-3xl font-black uppercase tracking-tight">Nguyễn Nhân Tâm</h4>
+                    <p class="text-yellow-400 text-lg font-medium mt-2">Lớp 12A1 - Khóa 2025</p>
+                </div>
+                
+                <div class="md:w-7/12 p-12 text-left flex flex-col justify-center">
+                    <div class="inline-flex items-center bg-yellow-100 text-yellow-800 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wide mb-6">
+                        Thủ khoa toàn tỉnh Khánh Hòa
+                    </div>
+                    <h3 class="text-3xl font-bold text-blue-900 mb-6 leading-tight">Niềm tự hào của mái trường mang tên người anh hùng</h3>
+                    <p class="text-gray-600 mb-10 text-lg italic leading-relaxed">"Thành công là một hành trình, không phải là đích đến. Tại Lý Tự Trọng, em đã tìm thấy bệ phóng vững chắc nhất."</p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="flex items-start p-5 bg-blue-50 rounded-2xl border border-blue-100">
+                            <div class="text-2xl mr-4">🎓</div>
+                            <div>
+                                <p class="text-xs font-bold text-blue-400 uppercase">Tốt nghiệp</p>
+                                <p class="text-xl font-black text-blue-900">37.75 Điểm</p>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+                <div class="relative group h-80 rounded-[2.5rem] overflow-hidden shadow-2xl">
+                    <img src="images/KHKT.png" alt="[Ảnh Hoạt động KHKT]" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute bottom-6 left-6 right-6 p-6 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl">
+                        <h4 class="font-bold text-blue-900">Sáng tạo Khoa học Kỹ thuật</h4>
+                        <p class="text-sm text-gray-500">Khơi nguồn đam mê nghiên cứu trong mỗi học sinh.</p>
+                    </div>
+                </div>
+                <div class="relative group h-80 rounded-[2.5rem] overflow-hidden shadow-2xl">
+                    <img src="images/khenthuong.png" alt="[Ảnh Vinh danh học sinh tiêu biểu]" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute bottom-6 left-6 right-6 p-6 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl">
+                        <h4 class="font-bold text-blue-900">Lễ Vinh Danh Thành Tích</h4>
+                        <p class="text-sm text-gray-500">Ghi nhận sự nỗ lực và tôn vinh những ngôi sao sáng.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- Activities Gallery -->
+    <section id="activities" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div class="text-left">
+                    <h2 class="text-4xl font-bold text-blue-900 mb-4 uppercase">Hoạt động sôi nổi</h2>
+                    <div class="h-1 w-20 bg-yellow-500"></div>
+                </div>
+                <p class="text-gray-500 mt-4 md:mt-0 max-w-md italic">Sống trọn tuổi học trò với những kỷ niệm rực rỡ và các hoạt động rèn luyện kỹ năng toàn diện.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Activity 1 -->
+                <div class="group">
+                    <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="images/chunhatxanh.png" alt="[Ảnh Chủ Nhật Xanh]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/90 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+                            <p class="text-white text-sm">Góp sức mình vào công cuộc bảo vệ môi trường biển quê hương Nha Trang.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 px-2">
+                        <h3 class="font-bold text-2xl text-blue-900 mb-2">Chủ Nhật Xanh</h3>
+                        <span class="text-green-600 font-bold text-xs uppercase tracking-widest">Bảo vệ môi trường</span>
+                    </div>
+                </div>
+
+                <!-- Activity 2 -->
+                <div class="group">
+                    <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="images/giaidieutuoihong.png" alt="[Ảnh Giai Điệu Tuổi Hồng]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-pink-900/90 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+                            <p class="text-white text-sm">Nơi tài năng nghệ thuật tỏa sáng rực rỡ dưới ánh đèn sân khấu.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 px-2">
+                        <h3 class="font-bold text-2xl text-blue-900 mb-2">Giai Điệu Tuổi Hồng</h3>
+                        <span class="text-pink-600 font-bold text-xs uppercase tracking-widest">Nghệ thuật & Sáng tạo</span>
+                    </div>
+                </div>
+
+                <!-- Activity 3 -->
+                <div class="group">
+                    <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="images/semaphore.png" alt="[Ảnh Đồng Diễn Semaphore]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-yellow-900/90 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+                            <p class="text-white text-sm">Thể hiện sự nhịp nhàng, đoàn kết và kỷ luật của Đoàn viên Lý Tự Trọng.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 px-2">
+                        <h3 class="font-bold text-2xl text-blue-900 mb-2">Đồng Diễn Semaphore</h3>
+                        <span class="text-yellow-600 font-bold text-xs uppercase tracking-widest">Kỹ năng & Đoàn đội</span>
+                    </div>
+                </div>
+
+                <!-- Activity 4 -->
+                <div class="group">
+                    <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="images/hoithao.png" alt="[Ảnh Hội Khỏe Phù Đổng]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-yellow-900/90 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+                            <p class="text-white text-sm">Tỏa sáng hết mình cho từng giọt mồ hôi của nhiệt huyết tuổi trẻ.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 px-2">
+                        <h3 class="font-bold text-2xl text-blue-900 mb-2">Thi đấu thể thao</h3>
+                        <span class="text-yellow-600 font-bold text-xs uppercase tracking-widest">Sức khỏe & Nhiệt huyết</span>
+                    </div>
+                </div>
+
+                <!-- Activity 5 -->
+                <div class="group">
+                    <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="images/CNCH.png" alt="[Ảnh Cứu Nạn cứu Hộ]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-yellow-900/90 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+                            <p class="text-white text-sm">Củng cố kiến thức về cứu nạn cứu hộ.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 px-2">
+                        <h3 class="font-bold text-2xl text-blue-900 mb-2">Kiến thức xã hội</h3>
+                        <span class="text-yellow-600 font-bold text-xs uppercase tracking-widest">An toàn cho chính bản thân</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- School Crest -->
+            <div class="mt-20 flex justify-center py-12 border-t border-gray-200">
+                <img src="images/Logo.png" alt="[Logo trường]" class="h-40 object-contain grayscale hover:grayscale-0 transition duration-500 opacity-60 hover:opacity-100">
+            </div>
+        </div>
+    </section>
+    <div class="meta">Lớp A13 đã đăng 1 bài status</div>
+    <a href="../lớp.html" class="next-page-btn">
+      ➜ Xem ngay</a
+    >
+    <!-- Footer -->
+    <footer class="bg-blue-950 text-white pt-24 pb-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-4 mb-8">
+                        <img src="images/Logo.png" alt="[Logo trắng]" class="h-16 w-auto bg-white rounded-full p-1 shadow-lg">
+                        <div>
+                            <h2 class="text-2xl font-black uppercase tracking-tighter">THPT Lý Tự Trọng</h2>
+                            <p class="text-blue-400 text-xs font-bold uppercase tracking-widest">Nha Trang - Khánh Hòa</p>
+                        </div>
+                    </div>
+                    <p class="text-blue-200/60 leading-relaxed max-w-md mb-8">Trường Trung học Phổ thông Lý Tự Trọng - Ngôi trường có bề dày truyền thống bậc nhất thành phố Nha Trang, nơi đào tạo những nhân tài cho đất nước.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/profile.php?id=100070873119812&sk=photos" class="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-blue-600 transition">FB</a>
+                        <a href="https://lttrong.khanhhoa.edu.vn/" class="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-blue-400 transition">WS</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-yellow-500 font-bold uppercase tracking-widest text-sm mb-8">Thông tin liên hệ</h4>
+                    <ul class="space-y-4 text-sm text-blue-100/80">
+                        <li class="flex items-start">
+                            <span class="text-yellow-500 mr-3">📍</span>
+                            <span>07 Lý Tự Trọng, Lộc Thọ, Nha Trang, Khánh Hòa</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-yellow-500 mr-3">📞</span>
+                            <span>0258.3521.338</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-yellow-500 mr-3">📧</span>
+                            <span>c3ltrong@khanhhoa.edu.vn</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-yellow-500 font-bold uppercase tracking-widest text-sm mb-8">Truy cập nhanh</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="text-blue-200/60 hover:text-white transition">Hệ thống quản lý điểm</a></li>
+                        <li><a href="#" class="text-blue-200/60 hover:text-white transition">Thời khóa biểu học sinh</a></li>
+                        <li><a href="#" class="text-blue-200/60 hover:text-white transition">Kế hoạch giáo dục</a></li>
+                        <li><a href="#" class="text-blue-200/60 hover:text-white transition">Thông báo mới nhất</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center text-xs font-medium text-blue-200/30 uppercase tracking-[0.2em]">
+                <p>&copy; 2026 TRƯỜNG THPT LÝ TỰ TRỌNG. ALL RIGHTS RESERVED.</p>
+                <p class="mt-4 md:mt-0">Design & Management by IT Dept</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

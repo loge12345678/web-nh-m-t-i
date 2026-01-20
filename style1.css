@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+header {
+  min-height: 100vh; /* full màn hình */
+  background-image: url("./ảnh nền.png"); /* <-- đường dẫn ảnh */
+  background-size: cover;
+  background-position: center right; /* dịch sang phải giống ảnh gốc */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+nav {
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+nav a {
+  font-size: 33px;
+  color: #0f2182;
+  font-weight: 600;
+}
+
+nav a:not(:last-child) {
+  margin-right: 20px;
+}
+
+header {
+  padding: 0 80px;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .left {
+  width: 700px;
+}
+
+header .left h1 {
+  font-size: 80px;
+}
+
+header .left h1 span {
+  color: #0f2182;
+}
+
+header .left a {
+  display: flex;
+  align-items: center;
+  background: #000;
+  width: 200px;
+  padding: 8px;
+  border-radius: 60px;
+}
+header .left a i {
+  display: inline-flex; /* giúp căn icon ở giữa */
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* vòng tròn cố định */
+  height: 40px;
+  background-color: #fff;
+  font-size: 20px; /* kích thước glyph */
+  border-radius: 50%;
+  color: #000; /* màu icon (bên trong vòng trắng) */
+  box-sizing: border-box;
+}
+
+header .left a span {
+  color: #fff;
+  margin-left: 10px;
+}
+
+h2.separator {
+  padding: 0 80px;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.sell-nft {
+  padding: 0 80px;
+  margin: 50px 0 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.sell-nft .item {
+  padding: 20px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.sell-nft .item:hover {
+  box-shadow: none;
+}
+
+.sell-nft .item .header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sell-nft .item .header i {
+  font-size: 40px;
+}
+
+.sell-nft .item .header h5 {
+  font-size: 17px;
+}
+
+.sell-nft .item p {
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 48px;
+}
+
+footer .right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 26px;
+}
+
+footer .right .links {
+  display: flex;
+  gap: 30px;
+}
+
+footer .right .links a {
+  color: #989898;
+  transition: color 0.3s ease;
+}
+
+footer .right .links a:hover {
+  color: #fff;
+}
+
+footer .right .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .right .social i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .right .social i:hover {
+  color: #304ffe;
+}
+
+footer .right p {
+  font-size: 13px;
+  color: #777;
+}
+
+@media screen and (max-width: 1400px) {
+  nav,
+  header,
+  h2.separator,
+  .sell-nft {
+    padding: 0 40px;
+  }
+
+  footer {
+    padding: 100px 40px;
+  }
+
+  footer h3 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header .left h1 {
+    font-size: 48px;
+  }
+
+  h2.separator {
+    font-size: 34px;
+  }
+
+  .sell-nft .item .header i {
+    font-size: 36px;
+  }
+
+  .sell-nft .item .header h5 {
+    font-size: 15px;
+  }
+
+  .sell-nft .item p {
+    font-size: 13px;
+  }
+
+  footer .links a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav a.logo {
+    font-size: 28px;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .sell-nft {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .sell-nft .item {
+    width: 48%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 60px 40px;
+  }
+
+  footer h3 {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  footer .right {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav,
+  header,
+  h2.separator {
+    padding: 0 20px;
+  }
+
+  header .left h1 {
+    font-size: 36px;
+  }
+
+  header .left p {
+    font-size: 14px;
+  }
+
+  header .left a {
+    padding: 6px;
+    width: 160px;
+    font-size: 14px;
+  }
+
+  header .left a i {
+    padding: 6px;
+  }
+
+  h2.separator {
+    font-size: 30px;
+  }
+
+  footer {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .left h1 {
+    font-size: 30px;
+  }
+
+  .sell-nft .item {
+    width: 100%;
+  }
+}
+@keyframes apper {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+header .left h1,
+h2.separator,
+.sell-nft,
+footer {
+  animation: apper 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+header .left h1 {
+  animation: apper 1s linear;
+}
