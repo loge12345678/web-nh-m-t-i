@@ -246,7 +246,7 @@ Từng trò chơi, từng vòng thi đều là minh chứng cho sự gắn kết
     // Close buttons
     document.querySelectorAll('.lb-close').forEach(btn => {
       btn.addEventListener('click', function(e){
-        e.preventDefault();
+        e.preventDefault();//ngăn trang web nhảy lên đầu
         
         const modal = btn.closest('.lb-css');
         closeModal(modal);
